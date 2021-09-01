@@ -1,0 +1,43 @@
+
+
+body{
+    background-color:rgb(149, 178, 241);
+    
+    text-align: center;
+    font:bold 40px Arial,sans-serif;
+}
+header{
+    background-color: aquamarine;
+}
+
+div{
+    color:rgb(43, 21, 21);
+}
+h1{
+    color:black;
+    border-style: outset;
+
+}
+button{
+    margin: 40px;
+    color:black;
+    width: 500px;
+    height: 100px;
+    font-size:40px;
+    background-color: rgb(189, 218, 219);
+}
+input{
+    width: 500px;
+    height: 100px;
+    font-size:40px;
+    background-color: rgb(50, 95, 97);
+    border-style:solid;
+    border-color: rgb(135, 141, 199);
+    border-width: 10px;
+}
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin: 0; 
+}
+
