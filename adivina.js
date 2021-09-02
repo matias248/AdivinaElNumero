@@ -8,6 +8,11 @@ function initRandomNumber(){
     randomNumber = Math.floor(Math.random() * 8);
  numberChooseByUser=document.getElementById("inputNumber");
  result=document.getElementById("result");
+ numberChooseByUser.addEventListener("keydown", function (e){
+     if(e.keyCode ===13){
+         replay();
+     }
+ });
  setTimeout(judgeTheNumber,1);
 }
 
