@@ -14,7 +14,7 @@ function initRandomNumber(){
 function judgeTheNumber()
 {
     if(numberChooseByUser.value==""){
-        result.textContent="Pon un  numero";
+        result.textContent="Pon un  numero sin espacios";
         result.style.color="red";
     }
     else{
